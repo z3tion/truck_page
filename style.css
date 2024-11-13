@@ -1,0 +1,192 @@
+@import "https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css";
+
+body{
+  background:#212529;
+  font-family:Arial;
+}
+
+header{
+  display:flex;
+}
+
+p,h1,h2,h3{
+  color:#fff;
+}
+
+h2{
+  color:#fff;
+  margin-left:20px;
+}
+
+p{
+   font-size:19px;
+}
+
+header .material-symbols-outlined{
+  color:#fff;
+  margin:22px 10px;
+}
+
+.conteiner{
+  width:auto;
+}
+nav{
+  height:50px;
+  background:red;
+}
+
+ul{
+list-style: none;
+}
+
+li {
+float: left;
+width: auto;
+}
+a{
+  display:block;
+  padding:16px 15px;
+  text-align:center;
+  text-decoration: none;
+  color:#ffff;
+}
+a:hover{
+  background:black;
+}
+nav .material-symbols-outlined{
+  color:#fff;
+  float:right;
+  margin:12px -50px;
+}
+#nomer{
+  float:right;
+  margin:15px 60px;
+  color:white;
+}
+main{
+  display:flex;
+  flex-direction:column;
+  width:auto;
+  height:auto;
+  background:#343a40;
+  background-size: cover;
+  background-size: 100% 110%;
+}
+
+.parallax{
+    background-image: url(https://img.freepik.com/free-photo/transport-logistics-products_23-2151541856.jpg?t=st=1731067821~exp=1731071421~hmac=ca3fbc4fbb2e5b5713b94fbca3609e5e42fdab9b85e9ed503d8eb581f491086d&w=1480);
+    height:800px;
+    background-size:100% 120%;
+    background-attachment: fixed;
+    filter: opacity(40%);
+   
+}
+
+.slogan{
+  position:absolute;
+  color:#fff;
+  margin:10% 38%;
+  z-index:2;
+  color:#fff;
+  font-size:45px;
+}
+
+.about{
+  width:50%;
+}
+#aabout{
+  position:relative;
+  margin:0 20px;
+}
+#aabout::after{
+  content:"";
+  width:5%;
+  height:20%;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:red;
+}
+
+.postconteiner{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.postconteiner h2{
+  margin:15px 48%;
+}
+
+.post{
+ display:flex;
+ margin:10px; 0;
+ width:600px;
+ height:300px;
+ background:#495057;
+ transition:.3s;
+}
+.post:hover{
+  transform:scale(1.01,1.01);
+}
+.pimage{
+ margin:10px 10px;
+ width:250px;
+ height:250px;
+}
+.ptext{
+  margin:0 25px;
+}
+img{
+  width:100%;
+  height:100%;
+}
+
+.commentconteiner{
+  display: flex;
+  width:100%;
+  height:auto;
+  align-items:center;
+  flex-direction:column;
+  background:;
+  
+}
+.bigcomment{
+  width:40%;
+  height:100px;
+  border-radius:10px;
+  background:#495057;
+}
+
+.comment{
+  width:700px;
+  height:100px;
+  margin:5px 0;
+  border-radius:10px;
+  background:#6c757d;
+}
+
+.cauthor{
+  margin:10px 10px;
+}
+
+.ctext{
+  margin:10px 10px;
+}
+
+footer{
+  display:flex;
+  flex-direction:column;
+  height:100px;
+}
+footer p{
+  color:#fff;
+}
+#copyright{
+  margin:15px auto;
+}
+#OOO{
+  margin-left:20px;
+}
+#made{
+  margin:auto;
+}
